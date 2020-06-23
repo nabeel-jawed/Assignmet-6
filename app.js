@@ -83,7 +83,13 @@
 
 // ******* Chapter 21-25 & Task 13 *******/
 
-
+// var a = prompt("Please Enter username:");
+// for(var i = 0;i<a.length;i++){
+// if(a.charCodeAt(i) === 33 || a.charCodeAt(i) === 44 || a.charCodeAt(i) === 46 ||a.charCodeAt(i) === 64){
+//     alert("Pleas Enter a valid username:");
+//     beark;
+// }
+// }
 
 // ******* Chapter 21-25 & Task 14 *******/
 
@@ -98,23 +104,25 @@
 //     }
 // }
 
-
-
 // ******* Chapter 21-25 & Task 15 *******/
 
+// var a =["cake", "apple pie","cookie","chips","patties"];
+// var b = prompt("Please Enter your desire product");
+// var c = b.toLowerCase();
+// for(var i =0; i < a.length; i++){
+//     if(a[i] === c){
+//         alert(c+" is available in our bakery at index number: "+a.indexOf(c));
+//         break;
+// }
+//     }
 
+// ******* Chapter 21-25 & Task 16 *******/
 
-
-
-
-
-
-
-
-
-
-
-
+// var str = "karachi university";
+// var arr = str.split("");
+// for(var i=0; i <= arr.length;i++){
+//     document.write(arr[i]+"<br>");
+// }
 
 
 // ******* Chapter 26-30 & Task 1 *******/
@@ -274,23 +282,11 @@
 // var a = +prompt("Enter your Age: ");
 // var b = new Date();
 // var c = b.getTime();
-// var d = 12*30.45*24*60*60*1000;
-// var mili = a * d;
-// var e = new Date(mili);
-// var f = b.getFullYear();
-// var g = e.getFullYear();
-// document.write(e);
-
-// var c = a.getTime();
-// var 
-// var a = prompt("Enter your age");
-// var b = a*12*30*24*60*60*1000;
-// document.write(b)
-// var c = new Date();
-// var d = c.getTime();
-// var diff = d-b;
-// var montj = d.getMonth();
-// document.write("<br>"+diff+montj);
+// var d = a * 12 * 30 * 24 * 60 * 60 * 1000;
+// var mili = c-d;
+// var birthDate = new Date(mili);
+// var final = birthDate.getFullYear();
+// document.write(final);
 
 // ******* Chapter 31-34 & Task 14 *******/
 
@@ -393,18 +389,20 @@
 
 // ******* Chapter 35-38 & Task 8 *******/
 
+// var baseSqr;
+// var perpSqr;
 // function square(){
 //     var base = +prompt("Enetr Base: ");
 //     var perp = +prompt("Enetr Perpendicular: ");
-//     var baseSqr = base*base;
-//     var perpSqr = perp*perp;
-//     function hyptenouse(baseSqr,perpSqr){
-//      var z = baseSqr + perpSqr;
-//      document.write(z); 
-//      hyptenouse();
-//     }
+//     return baseSqr = base*base;
+//     return perpSqr = perp*perp;
 // }
-// square();
+//     function hyptenouse(baseSqr,perpSqr){
+//         square();
+//         var z = baseSqr + perpSqr;
+//      document.write(z); 
+//     }
+// hyptenouse();
 
 // ******* Chapter 35-38 & Task 9 *******/
 
